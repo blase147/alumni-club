@@ -1,0 +1,375 @@
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    /* font-family: "Lato"; */
+    font-style: normal;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: right;
+    justify-items: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(21, 1, 1);
+  }
+
+  nav {
+    display: flex;
+    width: 100%;
+  }
+
+  .top-nav-1 {
+    display: flex;
+    justify-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  .top-nav-1 a {
+    display: flex;
+    justify-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .top-nav-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+
+  .top-nav-2 a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #header-logo {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    margin-left: 0;
+    padding-left: 20px;
+  }
+
+  .header-logo-image {
+    display: flex;
+    width: 20%;
+  }
+
+  .about-contact p {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  .about-desc-1 p {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .about-desc-2 p {
+    font-size: 13px;
+  }
+
+  .main-date p {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  #header-logo p {
+    display: flex;
+    text-decoration: none;
+    align-self: center;
+  }
+
+  #nav-items {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: end;
+    gap: 20px;
+    font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 0.9375em;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav-items a {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 0.9375em;
+    text-decoration: none;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+  .main {
+    padding-top: 90px;
+    background-image: url('/images/main-bg.jpeg');
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-title h1 {
+    font-size: 34px;
+    color: red;
+    margin: auto;
+  }
+
+  .main-title h2 {
+    font-size: 30px;
+    margin: auto;
+    color: red;
+  }
+
+  .main-description {
+    font-size: 25px;
+    line-height: 29px;
+    padding: 0 10px 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 6px solid rgb(255, 255, 255);
+  }
+
+  .main-date {
+    width: 100%;
+  }
+
+  .main-date h3 {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .main-program-card-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 90%;
+  }
+
+  .main-program-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 35%;
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+  }
+
+  .main-program-card:hover {
+    border: 2px solid white;
+  }
+
+  .main-program-card-title {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .main-program-card-description {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .see-whole-program {
+    padding: 50px;
+    text-align: center;
+  }
+
+  .see-whole-program a {
+    color: white;
+  }
+
+  .main-program-card-btn {
+    display: none;
+  }
+
+  #featured-speakers-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+  }
+
+  .featured-speakers-card-button {
+    display: none;
+  }
+
+  .desktop-footer {
+    width: auto;
+
+    /* margin: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+
+    /* padding-bottom: 50px; */
+    background-color: rgb(12, 1, 1);
+  }
+
+  .partners-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .partners {
+    display: flex;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+  }
+
+  .footer-2 {
+    display: flex;
+    gap: 30px;
+    background-color: #dedfe9;
+    color: black;
+    margin: 0;
+    width: 100%;
+    padding: 45px 100px 45px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partners img {
+    display: flex;
+  }
+
+  #footer-logo {
+    display: flex;
+    width: 40%;
+    align-items: center;
+  }
+
+  .past-events img {
+    display: flex;
+    width: 50%;
+  }
+
+  .about-logo img {
+    justify-content: center;
+    width: 30%;
+  }
+
+  .footer-2 img {
+    display: flex;
+    width: 20%;
+    z-index: 1;
+  }
+
+  #footer-logo img {
+    display: flex;
+    width: 80%;
+    height: 8vh;
+  }
+
+  #footer-logo p {
+    display: flex;
+    width: 100%;
+  }
+
+  .about-title h2 {
+    display: none;
+  }
+
+  .about-title h1 {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+  }
+
+  .about-description {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-desc-1 h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  #span-1 {
+    display: block;
+  }
+
+  .about-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .past-events {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+
+  .copyright {
+    width: 50%;
+  }
+
+  #form-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+    widows: 50%;
+    margin: auto;
+  }
+}
