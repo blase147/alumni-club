@@ -378,7 +378,7 @@
     gap: 20px;
     align-items: center;
     text-align: left;
-    widows: 50%;
+    width: 50%;
     margin: auto;
   }
 }
