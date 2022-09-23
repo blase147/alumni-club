@@ -27,6 +27,8 @@
   nav {
     display: flex;
     width: 100%;
+    padding-right: 40px;
+    padding-left: 60px;
   }
 
   .top-nav-1 {
@@ -105,16 +107,12 @@
     flex-direction: row;
     justify-content: space-around;
     align-self: center;
-
-    /* justify-content: end; */
     gap: 20px;
     font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-size: 0.9375em;
     width: 100%;
     padding: 0 20px;
-
-    /* background-color: rgb(228, 18, 18); */
   }
 
   .see-whole-program a {
