@@ -72,6 +72,25 @@
     width: 20%;
   }
 
+  .about-desc-1 p {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-contact p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 14px;
+    font-size: 25px;
+    width: 80%;
+    padding-top: 20px;
+  }
 
   #header-logo p {
     display: flex;
@@ -115,64 +134,7 @@
     display: none;
   }
 
-  .about-desc-1 p {
-    padding-top: 20px;
-    padding-bottom: 70px;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .about-contact p {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    font-size: 14px;
-    font-size: 25px;
-    width: 80%;
-    padding-top: 20px;
-  }
-
-  #header-logo p {
-    display: flex;
-    text-decoration: none;
-    align-self: center;
-  }
-
-  .header-logo-image {
-    width: 30%;
-  }
-
-  #nav-items {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: end;
-    gap: 20px;
-    font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-size: 0.9375em;
-    width: 100%;
-    padding: 0 20px;
-  }
-
-  .nav-items a {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-size: 0.9375em;
-    text-decoration: none;
-  }
-
   .close-btn {
-    display: none;
-  }
-
-  .menu-btn {
     display: none;
   }
 

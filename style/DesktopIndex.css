@@ -72,6 +72,29 @@
     width: 20%;
   }
 
+  .about-contact p {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  .about-desc-1 p {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  .about-desc-2 p {
+    font-size: 13px;
+  }
+
+  .main-date p {
+    font-size: 25px;
+    width: 100%;
+  }
 
   #header-logo p {
     display: flex;
@@ -102,6 +125,10 @@
     text-decoration: none;
   }
 
+  .see-whole-program a {
+    color: white;
+  }
+
   .nav-items a:hover {
     color: red;
   }
@@ -113,34 +140,6 @@
 
   .menu-btn {
     display: none;
-  }
-
-  .about-contact p {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin: auto;
-    font-size: 14px;
-  }
-
-  .about-desc-1 p {
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    font-size: 18px;
-  }
-
-  .about-desc-2 p {
-    font-size: 13px;
-  }
-
-  .main-date p {
-    font-size: 25px;
-    width: 100%;
-  }
-
-  .see-whole-program a {
-    color: white;
   }
 
   .main {
