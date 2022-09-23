@@ -46,8 +46,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [@microverseinc](https://github.com/microverseinc) 
-- Cindi
-Thanks for the README.md file Template.
+-  @Cindy Shin in Behance. Thanks for the template for this project.
 
 
 ## 📝 License
