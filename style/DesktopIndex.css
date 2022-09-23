@@ -27,7 +27,6 @@
   nav {
     display: flex;
     width: 100%;
-
   }
 
   .top-nav-1 {
@@ -198,6 +197,7 @@
   .main-program-title {
     font-size: 30px;
   }
+
   .main-program-card:hover {
     border: 2px solid white;
   }
@@ -287,6 +287,7 @@
     display: flex;
     width: 40%;
     align-items: center;
+    color: black;
   }
 
   .past-events img {
@@ -366,7 +367,7 @@
     width: 50%;
   }
 
-  #form-1 {
+  #form {
     display: flex;
     flex-direction: column;
   }

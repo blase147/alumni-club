@@ -71,21 +71,20 @@
             </div>
 
             <div class="form-container">
-            <form id="form-1"  action="https://formspree.io/f/xqkjanrn"  method="POST">
+            <form id="form"  action="https://formspree.io/f/xqkjanrn"  method="POST">
                 <fieldset>
                     <legend>Send me a quick message</legend>
-                    <label>
                     Your Name:
-                    <input type="name" name="email" placeholder="Your name" required>
-                </label>                 
+                    <input type="text" name="fullname" maxlength="30" placeholder="Fullname" required>
                 <label>
                     Your email:
-                    <input type="email" name="email" placeholder="Your email" required>
-                </label>
+                    <input id="mail" class="email" type="email" name="email" placeholder="Email address">
+                  </label>
                     <label>
-                        Your message:  <br>
-                        <textarea name="message" required placeholder="Type your comment here" minlength="30" maxlength="255" cols="30" rows="10"></textarea>
-                    </label><br>
+                        Your message:  
+                        <textarea name="comment" required placeholder="Type your comment here" cols="30" rows="10"></textarea>
+                    </label>
+                    <span class="message"></span>
                     <!-- your other form fields go here -->
                     <button type="submit">Send</button>
                 </fieldset>
@@ -129,7 +128,7 @@
                     </div>
                 </div>
                 </div>
-                    <div class="footer-2">
+                    <div id="footer-logo" class="footer-2">
                         <img src="../images/logo.png" alt="logo">
                         <p>2015 Creative Commons Korea.
                         Some Rights Reserved.</p>
@@ -139,4 +138,5 @@
       </section>
     </body>
     <script type="module" src="/js/index.js"></script>
+
 </html>
