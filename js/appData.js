@@ -2,7 +2,7 @@ const data = [
 
   {
     id: 0,
-    speakerImage: '../images/speaker_01.png',
+    speakerImage: '.../images/speaker_01.png',
     speakerName: 'Chinonso Amadi',
     description1: 'Lorem ipsum dolor sit amet consectetur adipisicing elitModi, quos laboru',
     description2: 'Lorem ipsum dolor sit amet consectetur adipisicing elitModi, quos laborum',
