@@ -47,10 +47,12 @@
 
   .top-nav-1 a {
     display: flex;
+    flex-direction: row;
     justify-items: center;
     padding: 5px;
     text-decoration: none;
     color: #fff;
+    height: 12vh;
   }
 
   .top-nav-2 {
