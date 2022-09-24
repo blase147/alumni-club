@@ -1,102 +1,15 @@
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Lato", 'Verdana', 'Geneva', Tahoma, sans-serif;
-  font-style: normal;
-  width: 100%;
-  padding: 0;
-  margin: auto;
-}
-
-header {
-  display: flex;
-  width: 100%;
-  margin: 0;
-}
-
-#header-logo {
-  display: none;
-}
-
-.top-nav {
-  display: none;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-}
-
-.nav-items {
-  flex-direction: column;
-  gap: 50px;
-  display: none;
-  font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-  font-style: normal;
-  font-size: 0.9375em;
-  line-height: 1.25em;
-}
-
-.header-logo {
-  display: none;
-}
-
-.menuShown {
-  display: flex;
-  flex-direction: column;
-  padding-top: 15vh;
-  background: #3c3a39;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  padding-left: 10vw;
-  top: 0;
-  left: 0;
-}
-
-.menuShown a {
-  display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  margin: 5px;
-  font-family: "Inter", 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  color: white;
-}
-
-.close-btn {
-  display: none;
-  font-size: 2rem;
-  height: 5vh;
-  z-index: 1;
-  position: fixed;
-  left: 20px;
-}
-
-.menu-btn {
-  margin-top: 20px;
-  margin-left: 20px;
-  background: none;
-  font-size: 2rem;
-  height: 5vh;
-}
-
 .about {
   color: black;
   text-align: center;
+  margin: auto;
+  width: 100%;
 }
 
 .about-content {
+  background-image: url('../images/main-bg.jpeg');
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(240, 235, 235);
 }
 
 .about-title {
@@ -110,36 +23,38 @@ nav {
 }
 
 .about-title h2 {
-  font-size: 22px;
+  color: red;
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+
+.about-title p {
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   color: red;
 }
 
-.about-title h1 {
-  font-size: 21px;
-  color: red;
-  font-weight: bolder;
-}
-
-.about-description {
-  line-height: 33px;
-  font-size: 16px;
+.about-description p {
+  line-height: 14px;
+  font-size: 9px;
+  padding-top: 0;
   background-color: #fff;
   width: 90%;
   margin: auto;
   border-radius: 8px;
-  padding: 10px 10px;
 }
 
 .about-contact p {
-  line-height: 30px;
-  font-size: 17px;
+  display: flex;
   width: 80%;
-  margin: auto;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .about-contact h3 {
-  font-weight: bolder;
+  font-weight: 900;
   margin: auto;
   padding-bottom: 40px;
 }
@@ -176,26 +91,6 @@ fieldset button {
   color: white;
 }
 
-.about-desc-1 h3 {
-  line-height: 28px;
-  font-size: 27px;
-  width: 100%;
-  margin: auto;
-  padding: 10%;
-}
-
-.about-desc-1 p {
-  font-size: 15px;
-  line-height: 28px;
-  width: 100%;
-  margin: auto;
-  padding: 10%;
-}
-
-#span-1 {
-  display: none;
-}
-
 .about-hr {
   width: 10%;
   color: red;
@@ -212,12 +107,20 @@ fieldset button {
 }
 
 .about-desc-2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
   width: 90%;
   margin: auto;
 }
 
+.about-rule {
+  width: 10%;
+  border: 1px solid red;
+}
+
 .about-desc-2 h3 {
-  font-size: 23px;
+  font-size: 1px;
   padding: 10px 20px;
 }
 
@@ -239,28 +142,26 @@ fieldset button {
   margin: auto;
 }
 
-.footer-1 {
-  color: white;
-  background-color: black;
-}
-
-.partners-container {
+#partners {
   display: flex;
-  flex-direction: row;
-}
-
-.partners {
-  display: grid;
-  grid-template-columns: auto auto;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  width: 100%;
+  gap: 0;
+  margin-top: 20px;
+  margin-right: 0;
   height: 22vh;
+  background-color: rgb(1, 0, 0);
 }
 
-.partners img {
+.footer-2 img {
+  height: 10vh;
+}
+
+#partners img {
   display: flex;
-  width: 30%;
+  width: 20%;
+  margin: auto;
 }
 
 .desktop-footer {
@@ -270,13 +171,250 @@ fieldset button {
 .footer-2 {
   display: flex;
   flex-direction: row;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
   gap: 10px;
   width: 80%;
   margin: auto;
-  padding: 20px 10px 10px;
 }
 
-.footer-2 img {
-  width: 20%;
+/* Desktop version */
+@media screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Lato", 'Verdana', 'Geneva', Tahoma, sans-serif;
+    font-style: normal;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+  }
+
+  .about-desc-1 p {
+    padding-top: 20px;
+    padding-bottom: 70px;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .about-contact p {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 14px;
+    font-size: 25px;
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  .about-content {
+    background-image: url(../images/w5.jpeg);
+  }
+
+  .about-title h2 {
+    display: none;
+  }
+
+  .about-title p {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    padding: 40px 0;
+    font-size: 55px;
+    color: red;
+  }
+
+  .about-description {
+    width: 60%;
+    margin: auto;
+    border: 4px solid #d0d2e100;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 43px;
+    font-size: 28px;
+    padding: 30px;
+
+    /* background-color: rgb(242, 234, 234); */
+  }
+
+  .about-description p {
+    font-size: 29px;
+    line-height: 33px;
+    padding: 33px;
+  }
+
+  .about-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 20px 20px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .about-contact h3 {
+    margin-top: 0;
+    font-size: 23px;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .desktop-footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background-color: rgb(12, 1, 1);
+  }
+
+  #footer-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    color: rgb(252, 252, 252);
+    background-color: rgb(21, 1, 1);
+  }
+
+  #footer-logo img {
+    display: flex;
+    width: 7%;
+  }
+
+  .about-2 p {
+    margin: auto;
+    width: 60%;
+    line-height: 33px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+
+  #footer-logo p {
+    text-align: center;
+  }
+
+  .about-2 h3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  #span-1 {
+    display: flex;
+  }
+
+  .about-logo-container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    border: 2px solid grey;
+  }
+
+  .about-logo {
+    display: flex;
+    justify-content: center;
+    width: 5px;
+    margin: auto;
+  }
+
+  .about-rule {
+    border: 1px solid red;
+    width: 5%;
+  }
+
+  .about-hr-1 {
+    margin-top: 60px;
+    width: 100%;
+  }
+
+  .about-desc-2 h3 {
+    font-size: 29px;
+    text-align: center;
+  }
+
+  #past-events {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 120px;
+  }
+
+  #past-events img {
+    width: 60%;
+    margin: auto;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  #footer-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: left;
+    height: 19vh;
+  }
+
+  #footer-2 img {
+    display: flex;
+    width: 10%;
+    height: 10vh;
+    justify-content: center;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+
+  #form input {
+    height: 5vh;
+  }
+
+  #form button {
+    height: 5vh;
+    font-size: 29px;
+    width: 30%;
+  }
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 29px;
+    margin: auto;
+  }
 }

@@ -32,7 +32,7 @@ data.forEach((data) => {
         <div class="featured-speakers-card-title">
             <h2>${speakerName}</h2>
             <p>${description1}</p>
-            <hr class="featured-speakers-card-title-hr">
+            <hr>
         </div>
         <div class="featured-speakers-card-description">
             <p>${description2}</p>
