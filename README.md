@@ -9,7 +9,9 @@ Alumni-club
 
 ## Built With
 
---Major languages - HTML & CSS
+- Major languages -- HTML and CSS
+
+- Technologies used --GitHub --Visual Studio Code --GitBash
 
 ## Live Demo 
 
