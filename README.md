@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-- This project is an alumni website for publizing the activities of College/University mates. It allows for the dynamic display of upcoming activities and insighful information about the club, inclucdig a contact form for quick enquiries and feedback
+- This project is an alumni website for publishing the activities of College/University mates. It allows for the dynamic display of upcoming activities and insighful information about the club, inclucdig a contact form for quick enquiries and feedback
 
 # Poject Description
 - This is a project for an Alumni Association Website
