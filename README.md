@@ -9,8 +9,8 @@ Alumni-club
 
 ## Built With
 
-- Major languages
-- HTML & css
+--Major languages
+- HTML & CSS
 - Technologies used
 
 ## Live Demo 
