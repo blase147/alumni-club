@@ -3,7 +3,7 @@
 # Project Name
 Alumni-club
 
->Poject Description
+# Poject Description
 - This is a project for an Alumni Association Website
 
 
