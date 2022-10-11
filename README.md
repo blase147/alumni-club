@@ -1,62 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+Alumni-club
 
 > Description the project.
+This is a project for an Alumni Association Website
 
 
 ## Built With
 
 - Major languages
-- Frameworks
+- HTML & css
 - Technologies used
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://blase147.github.io/alumni-club/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+**To get a local copy up and running follow these simple example steps.
+- Download zip file of the project
+- Extract folder to the hard drive
+- Open index.html file with any modern web browser i.e. chrome
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Chukwuma Paul Mosanya**
+- GitHub: [@blase147](https://github.com/blase147)
+- Twitter: [@ChukwumaMosanya](https://twitter.com/ChukwumaMosanya)
+- LinkedIn: [@ChukwumaMosanya](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.https://github.com/blase147/alumni-club/issues
+
 
 ## Show your support
 
