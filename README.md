@@ -4,7 +4,7 @@
 Alumni-club
 
 >Poject Description
-This is a project for an Alumni Association Website
+- This is a project for an Alumni Association Website
 
 
 ## Built With
