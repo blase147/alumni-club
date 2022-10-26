@@ -1,8 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Alumni Club Website
-Click this link to view live page
-> [Live Demo Link](https://blase147.github.io/alumni-club/)
+> [Click this link to view live page](https://blase147.github.io/alumni-club/)
 
 ## Built With
 - HTML
