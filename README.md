@@ -1,51 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-- This project is an alumni website for publishing the activities of College/University mates. It allows for the dynamic display of upcoming activities and insighful information about the club, inclucdig a contact form for quick enquiries and feedback
-
-# Poject Description
-- This is a project for an Alumni Association Website
-
+# Alumni Club Website
+Click this link to view live page
+> [Live Demo Link](https://blase147.github.io/alumni-club/)
 
 ## Built With
+- HTML
+- CSS
 
-- Major languages -- HTML and CSS
-
-- Technologies used --GitHub --Visual Studio Code --GitBash
-
-## Live Demo 
-
-[Live Demo Link](https://blase147.github.io/alumni-club/)
-
+## Technologies used 
+- GitHub 
+- Visual Studio Code 
+- GitBash
 
 ## Getting Started
-
 **To get a local copy up and running follow these simple example steps.
 - Download zip file of the project
 - Extract folder to the hard drive
 - Open index.html file with any modern web browser i.e. chrome
 
-
-
 ## Authors
-
 👤 **Chukwuma Paul Mosanya**
 - GitHub: [@blase147](https://github.com/blase147)
 - Twitter: [@ChukwumaMosanya](https://twitter.com/ChukwumaMosanya)
 - LinkedIn: [@ChukwumaMosanya](https://www.linkedin.com/in/chukwuma-mosanya-34645388)
 
-
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
-
 Feel free to check the issues page.https://github.com/blase147/alumni-club/issues
 
-
 ## Show your support
-
 Give a ⭐️ if you like this project!
-
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
